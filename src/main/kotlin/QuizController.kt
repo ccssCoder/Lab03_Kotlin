@@ -47,9 +47,23 @@ class QuizController {
         )
         questions += question
         question = Question(
-            "Template question for further testing",
+            "Template question for further testing?",
             listOf("a", "b", "c", "d"),
             "b"
+        )
+        questions += question
+
+        question = Question(
+            "How does Version control helps software development?",
+            listOf("Not helping", "Helps developers to work on same project", "Useless", "I don t know"),
+            "Helps developers to work on same project"
+        )
+        questions += question
+
+        question = Question(
+            "What is gitflow?",
+            listOf("No idea", "Batman knows", "Developing different features in different branch", "I don t know"),
+            "Developing different features in different branch"
         )
         questions += question
     }
